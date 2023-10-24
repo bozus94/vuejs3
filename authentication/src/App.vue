@@ -1,7 +1,9 @@
 <template>
 	<nav>
-		<router-link to="/">Home</router-link> |
-		<router-link to="/auth">Auth</router-link>
+		<router-link to="/">Home</router-link> | <router-link to="/auth">Auth</router-link> |
+		<router-link to="/firebase">Firebase</router-link> | <router-link to="/social">Social</router-link> |
+		<router-link to="/aws">AWS</router-link> |
+		<router-link to="/azure">Azure</router-link>
 	</nav>
 	<div class="container">
 		<router-view />

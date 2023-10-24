@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import AuthViev from "../views/AuthViev.vue";
+import AuthView from "../views/AuthView.vue";
+import FirebaseView from "../views/FirebaseView.vue";
+import SocialView from "../views/SocialView.vue";
+import AwsView from "@/views/AwsView.vue";
+import AzureView from "@/views/AzureView.vue";
 
 const routes: Array<RouteRecordRaw> = [
 	{
@@ -11,7 +15,27 @@ const routes: Array<RouteRecordRaw> = [
 	{
 		path: "/auth",
 		name: "about",
-		component: AuthViev,
+		component: AuthView,
+	},
+	{
+		path: "/firebase",
+		name: "firebase",
+		component: FirebaseView,
+	},
+	{
+		path: "/social",
+		name: "social",
+		component: SocialView,
+	},
+	{
+		path: "/aws",
+		name: "aws",
+		component: AwsView,
+	},
+	{
+		path: "/azure",
+		name: "azure",
+		component: AzureView,
 	},
 ];
 
