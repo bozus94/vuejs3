@@ -34,6 +34,7 @@
 <script lang="ts" setup>
 import { onMounted, ref } from "vue";
 import { initFlowbite } from "flowbite";
+
 import NavComponent from "@/components/NavComponent.vue";
 import H1Heading from "@/components/H1Heading.vue";
 import TableLayout from "./layouts/TableLayout.vue";
@@ -49,77 +50,77 @@ const ChangeLayout = (cmp: any) => {
 const users = [
 	{
 		id: 1,
-		firstname: "John Doe",
+		name: "John Doe",
 		email: "johndoe@example.com",
 		birthDate: "1973-01-22",
 		phone: "(555) 555-1234",
 	},
 	{
 		id: 2,
-		firstname: "Jane Smith",
+		name: "Jane Smith",
 		email: "janesmith@example.com",
 		birthDate: "1983-02-22",
 		phone: "(555) 555-5678",
 	},
 	{
 		id: 3,
-		firstname: "Bob Johnson",
+		name: "Bob Johnson",
 		email: "bobjohnson@example.com",
 		birthDate: "1974-11-12",
 		phone: "(555) 555-9012",
 	},
 	{
 		id: 4,
-		firstname: "Emily Davis",
+		name: "Emily Davis",
 		email: "emilydavis@example.com",
 		birthDate: "1974-11-30",
 		phone: "(555) 555-3456",
 	},
 	{
 		id: 5,
-		firstname: "William Brown",
+		name: "William Brown",
 		email: "williambrown@example.com",
 		birthDate: "1974-11-22",
 		phone: "(555) 555-6789",
 	},
 	{
 		id: 6,
-		firstname: "Laura Wilson",
+		name: "Laura Wilson",
 		email: "laurawilson@example.com",
 		birthDate: "1984-12-14",
 		phone: "(555) 555-1234",
 	},
 	{
 		id: 7,
-		firstname: "Michael Garcia",
+		name: "Michael Garcia",
 		email: "michaelgarcia@example.com",
 		birthDate: "1984-12-14",
 		phone: "(555) 555-9012",
 	},
 	{
 		id: 8,
-		firstname: "Stephanie Lee",
+		name: "Stephanie Lee",
 		email: "stephanielee@example.com",
 		birthDate: "1983-02-13",
 		phone: "(555) 555-3456",
 	},
 	{
 		id: 9,
-		firstname: "David Hernandez",
+		name: "David Hernandez",
 		email: "davidhernandez@example.com",
 		birthDate: "2000-11-10",
 		phone: "(555) 555-6789",
 	},
 	{
 		id: 10,
-		firstname: "Jessica Perez",
+		name: "Jessica Perez",
 		email: "jessicaperez@example.com",
 		birthDate: "1988-11-13",
 		phone: "(555) 555-9012",
 	},
 	{
 		id: 11,
-		firstname: "Mark Thompson",
+		name: "Mark Thompson",
 		email: "markthompson@example.com",
 		birthDate: "1999-01-17",
 		phone: "(555) 555-1234",
